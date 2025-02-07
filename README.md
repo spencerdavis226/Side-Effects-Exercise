@@ -28,10 +28,6 @@ To run this application locally:
 3. Start the development server (for example, run "npm run dev").
 4. Open your browser and navigate to the URL provided by the development server.
 
-## Short Description
-
-Star Destroyer is an interactive React app that simulates scanning space for stars. It leverages React hooks to dynamically generate stars at random positions and provides an engaging way to explore state management, side effects, and focus control in React.
-
 ## License
 
 This project is licensed under the MIT License.
