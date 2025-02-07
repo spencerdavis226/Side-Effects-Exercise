@@ -30,8 +30,8 @@ const Star = ({ id, position, onDestroy }) => {
       onBlur={(e) => (e.target.style.boxShadow = 'none')}
       style={{
         position: 'absolute',
-        left: `${position.x}`,
-        top: `${position.y}`,
+        left: `${position.x}px`,
+        top: `${position.y}px`,
         width: `${STAR_SIZE}px`,
         height: `${STAR_SIZE}px`,
         backgroundColor: 'yellow',
@@ -39,9 +39,7 @@ const Star = ({ id, position, onDestroy }) => {
         cursor: 'pointer',
         outline: 'none',
       }}
-    >
-      {/* Star content will go here */}
-    </div>
+    ></div>
   );
 };
 
